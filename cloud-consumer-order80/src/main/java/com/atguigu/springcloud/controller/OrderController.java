@@ -55,4 +55,12 @@ public class OrderController {
         }
         return this.discoveryClient;
     }
+    // ====================> zipkin+sleuth
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin()
+    {
+        //String result = restTemplate.getForObject("http://localhost:8001"+"/payment/zipkin/", String.class);
+        String result = restTemplate.getForObject(PAYMENT_SRV+"/payment/zipkin/", String.class);
+        return result;
+    }
 }
