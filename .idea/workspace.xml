@@ -2,16 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af220b32-cf1b-4320-a96e-2537a3f5cb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/StreamMQMain8802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/service/ReceiveMessageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/StreamMQMain8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/impl/MessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/atguigu/cloudalibaba/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/atguigu/cloudalibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloudAlibaba/MainApp8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloudAlibaba/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloudAlibaba/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloudAlibaba/myhandler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/SeataAccountMainApp2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/SeataOrderMainApp2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/SeataStorageServiceApplication2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,6 +80,17 @@
     <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/target/" />
     <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/" />
     <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9001/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9003/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-provider-payment9004/target/" />
+    <ignored path="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/target/" />
+    <ignored path="$PROJECT_DIR$/seata-order-service2001/target/" />
+    <ignored path="$PROJECT_DIR$/seata-storage-service2002/target/" />
+    <ignored path="$PROJECT_DIR$/seata-account-service2003/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,43 +101,57 @@
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mscloud" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/service/ReceiveMessageListener.java">
+        <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="384">
+              <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java">
+        <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/impl/StorageServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yaml">
+        <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/impl/AccountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/impl/MessageProviderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="73">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,57 +181,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/service/PaymentFeignService.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/controller/OrderFeignController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java/com/atguigu/springcloud/config/FeignConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/OrderHystrixMain80.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/controller/OrderHystirxController.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/impl/PaymentFallbackService.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentHystrixService.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/global/MyLoginGateWayFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/ZonedDateTimeDemo.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/atguigu/springcloud/ConfigCenterMain3344.java" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yaml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/StreamMQMain8801.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/impl/MessageProviderImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/StreamMQMain8802.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/service/ReceiveMessageListener.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/atguigu/cloudalibaba/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/atguigu/cloudalibaba/PaymentMain9003.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/atguigu/cloudalibaba/PaymentMain9004.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/config/ApplicationContextConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7137563e-77d8-435a-ab09-c8bbdde435c7/console.sql" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentFallbackService.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/controller/CircleBreakerController.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/OrderNacosMain84.java" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/Order.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/DataSourceProxyConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/SeataOrderMainApp2001.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/SeataStorageServiceApplication2002.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/Storage.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/dao/StorageDao.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/impl/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atuigu/cloudalibaba/SeataAccountMainApp2003.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atuigu/cloudalibaba/domain/CommonResult.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atuigu/cloudalibaba/domain/Account.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atuigu/cloudalibaba/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/controller/AccountController.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/controller/StorageController.java" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/pom.xml" />
+        <option value="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/impl/AccountServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -191,8 +259,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
-    <option name="y" value="85" />
+    <option name="x" value="740" />
+    <option name="y" value="72" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
@@ -202,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,62 +280,79 @@
             <path>
               <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="mscloud" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-stream-rabbitmq-consumer8803" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mscloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mscloud" type="462c0819:PsiDirectoryNode" />
+              <item name="seata-storage-service2002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudalibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/atguigu" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order83/src/main/java/com/atguigu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -281,9 +365,11 @@
       <recent name="D:\mscloud\cloud-consumer-order80\src\main\java\com\atguigu\springcloud" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.cloudalibaba" />
       <recent name="springcloud" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mscloud\seata-order-service2001\src\main\resources\mapper" />
       <recent name="D:\mscloud\cloud-provider-payment8001\src\main\resources\mapper" />
     </key>
   </component>
@@ -303,81 +389,81 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.257953" />
+    <option name="contentProportion" value="0.269018" />
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMQMain8803">
-    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-client-3366" />
+  <component name="RunManager" selected="Spring Boot.SeataStorageServiceApplication2002">
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.cloudAlibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudAlibaba.MainApp8401" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server7001" />
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.cloudalibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekaMain7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudalibaba.OrderNacosMain84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-provider8801" />
+    <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.cloudalibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudalibaba.SeataAccountMainApp2003" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer8802" />
+    <configuration name="SeataOrderMainApp2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-order-service2001" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.cloudalibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudalibaba.SeataOrderMainApp2001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer8803" />
+    <configuration name="SeataStorageServiceApplication2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-storage-service2002" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.cloudalibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.cloudalibaba.SeataStorageServiceApplication2002" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.StreamMQMain8802" />
-        <item itemvalue="Spring Boot.StreamMQMain8803" />
-        <item itemvalue="Spring Boot.StreamMQMain8801" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.ConfigClientMain3366" />
+        <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
+        <item itemvalue="Spring Boot.SeataOrderMainApp2001" />
+        <item itemvalue="Spring Boot.SeataStorageServiceApplication2002" />
+        <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +482,8 @@
       <workItem from="1636691677389" duration="731000" />
       <workItem from="1636692449519" duration="2092000" />
       <workItem from="1636694597979" duration="32773000" />
+      <workItem from="1636893677720" duration="8765000" />
+      <workItem from="1637232181848" duration="20464000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud-config and springcloud-bus">
       <created>1636890306511</created>
@@ -404,11 +492,32 @@
       <option name="project" value="LOCAL" />
       <updated>1636890306511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springcloud-sleuth">
+      <created>1636895183794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636895183794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springcloud-alibaba-nacos">
+      <created>1636914426219</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636914426219</updated>
+    </task>
+    <task id="LOCAL-00004" summary="springcloud-alibaba-nacos">
+      <created>1636914441571</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636914441571</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38676000" />
+    <option name="totallyTimeSpent" value="67905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,36 +530,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2780027" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33468285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.37246963" />
       <window_info id="Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.3299595" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run Dashboard" order="2" sideWeight="0.49865046" weight="0.7620438" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.5167883" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.6321168" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" show_stripe_button="false" weight="0.329927" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.329927" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.329927" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329927" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013495" side_tool="true" weight="0.65839416" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" show_stripe_button="false" weight="0.329927" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.329927" />
-      <window_info anchor="bottom" id="Jms Browser" order="16" show_stripe_button="false" weight="0.329927" />
-      <window_info anchor="bottom" id="Problems" order="17" show_stripe_button="false" weight="0.329927" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.4979757" visible="true" weight="0.59562045" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.50364965" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.5167883" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.6321168" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" show_stripe_button="false" weight="0.329927" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.329927" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932525" weight="0.329927" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5020243" side_tool="true" weight="0.69927007" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" show_stripe_button="false" weight="0.329927" />
+      <window_info anchor="bottom" id="Database Changes" order="15" weight="0.329927" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.7518248" />
+      <window_info anchor="bottom" id="Jms Browser" order="17" show_stripe_button="false" weight="0.329927" />
+      <window_info anchor="bottom" id="Problems" order="18" show_stripe_button="false" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.48920378" />
       <window_info anchor="right" id="Mybatis datasource" order="4" side_tool="true" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3299595" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Jms Messenger" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
@@ -518,441 +629,480 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud-config and springcloud-bus" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud-config and springcloud-bus" />
+    <MESSAGE value="springcloud-sleuth" />
+    <MESSAGE value="springcloud-alibaba-nacos" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud-alibaba-nacos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="74" column="26" lean-forward="true" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixCircuitBreaker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixMetricsProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-431">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.1.RELEASE/spring-cloud-netflix-hystrix-2.2.1.RELEASE.jar!/org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/atguigu/cloudalibaba/PaymentMain9004.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="29" column="76" lean-forward="true" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="51" column="90" lean-forward="true" selection-start-line="51" selection-start-column="90" selection-end-line="51" selection-end-column="90" />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7137563e-77d8-435a-ab09-c8bbdde435c7/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloudGateWayMain9527.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/global/MyLoginGateWayFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/ZonedDateTimeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/atguigu/springcloud/ConfigCenterMain3344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/config/ApplicationContextConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="297">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-alibaba-sentinel/2.1.0.RELEASE/spring-cloud-alibaba-sentinel-2.1.0.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="-1134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center-3344/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/integration/spring-integration-core/5.2.2.RELEASE/spring-integration-core-5.2.2.RELEASE.jar!/org/springframework/integration/support/MessageBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding>
-            <element signature="e#2266#2267#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/StreamMQMain8801.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/spring-messaging/5.2.2.RELEASE/spring-messaging-5.2.2.RELEASE.jar!/org/springframework/messaging/MessageChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/controller/SendMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-stream/3.0.1.RELEASE/spring-cloud-stream-3.0.1.RELEASE.jar!/org/springframework/cloud/stream/config/BindingServiceProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
-          <folding>
-            <element signature="e#2962#2963#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../repository/org/springframework/cloud/spring-cloud-stream/3.0.1.RELEASE/spring-cloud-stream-3.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentFallbackService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/service/ReceiveMessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/StreamMQMain8802.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/impl/MessageProviderImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/OrderNacosMain84.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/controller/CircleBreakerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/service/ReceiveMessageListener.java">
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/cloudAlibaba/MainApp8401.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/cloudalibaba/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="68" lean-forward="true" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-alibaba-seata/2.1.0.RELEASE/spring-cloud-alibaba-seata-2.1.0.RELEASE.jar!/com/alibaba/cloud/seata/GlobalTransactionAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="324">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/DataSourceProxyConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" column="80" lean-forward="true" selection-start-line="21" selection-start-column="80" selection-end-line="21" selection-end-column="80" />
+        <state relative-caret-position="168">
+          <caret line="20" column="42" lean-forward="true" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/SeataStorageServiceApplication2002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/domain/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/domain/CommonResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/config/MyBatisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/SeataOrderMainApp2001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/SeataAccountMainApp2003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/controller/StorageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" selection-start-line="27" selection-start-column="1" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/dao/StorageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/cloudalibaba/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="46" column="49" lean-forward="true" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/cloudalibaba/service/impl/StorageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/cloudalibaba/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

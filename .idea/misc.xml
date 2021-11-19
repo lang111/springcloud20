@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" />
       </list>
     </option>
   </component>
